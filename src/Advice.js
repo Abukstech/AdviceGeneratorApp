@@ -23,7 +23,9 @@ const Advice = () => {
     fetchAdvice();
   }
   
-  useEffect(fetchAdvice,[])
+  useEffect(function(){
+    fetchAdvice();
+  },[])
 
 
 
